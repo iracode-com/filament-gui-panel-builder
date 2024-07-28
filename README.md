@@ -26,7 +26,7 @@ in config/app.php:
     <?php
         use IracodeCom\FilamentGuiPanelBuilder\GuiPanelBuilderServiceProvider;
         'providers' => ServiceProvider::defaultProviders()->merge([
-				...,
+			...,
 		       GuiPanelBuilderServiceProvider::class
 		])->toArray(),
     ?>
@@ -38,10 +38,10 @@ in app\Providers\Filament\AdminPanelProvider.php:
     <?php
         use IracodeCom\FilamentGuiPanelBuilder\GuiPanelBuilderPlugin;
         return $panel
-					...
-				->plugins([
-						GuiPanelBuilderPlugin::make()
-				]);
+		...
+		->plugins([
+			GuiPanelBuilderPlugin::make()
+		]);
     ?>
     
 	
