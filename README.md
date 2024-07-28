@@ -3,9 +3,9 @@ Filament GUI Panel Builder provides a filament graphical user interface plugin f
 
 
 ## Prerequisite
-- PHP +8.1
-- Laravel +10
-- Filament V3
+- PHP >= 8.1
+- Laravel >= 10
+- Filament v3
 
 ## Installation and Configure
 #### Package Installation
@@ -52,4 +52,4 @@ php artisan filament:clear
 ```
 Now in Filament admin panel , Gui Panel Builder menu is registered!
 ## Translation
-All texts in this plugin is used with laravel translation helper you should just translate them in your language transtion json file.
+All texts in this plugin is used with laravel translation helper you should just translate them in your language translation json file.
