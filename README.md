@@ -13,14 +13,16 @@ Filament GUI Panel Builder provides a filament graphical user interface plugin f
 composer require iracode-com/filament-gui-panel-builder
 ```
 #### Add Provider
-in config/app.php:
+in bootstrap/providers.php:
 
     <?php
         use IracodeCom\FilamentGuiPanelBuilder\GuiPanelBuilderServiceProvider;
-        'providers' => ServiceProvider::defaultProviders()->merge([
-			...,
-		       GuiPanelBuilderServiceProvider::class
-		])->toArray(),
+        return [
+    		App\Providers\AppServiceProvider::class,
+    		App\Providers\Filament\AdminPanelProvider::class,
+      		GuiPanelBuilderServiceProvider::class
+	];
+
     ?>
     
 
