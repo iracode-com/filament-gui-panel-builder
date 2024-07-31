@@ -21,7 +21,7 @@ in bootstrap/providers.php:
     		App\Providers\AppServiceProvider::class,
     		App\Providers\Filament\AdminPanelProvider::class,
       		GuiPanelBuilderServiceProvider::class
-	];
+	   ];
 
     ?>
     
