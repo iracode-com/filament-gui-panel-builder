@@ -18,8 +18,7 @@ in Laravel v11 , bootstrap/providers.php:
     <?php
         use IracodeCom\FilamentGuiPanelBuilder\GuiPanelBuilderServiceProvider;
         return [
-    		App\Providers\AppServiceProvider::class,
-    		App\Providers\Filament\AdminPanelProvider::class,
+    		...,
       		GuiPanelBuilderServiceProvider::class
 	   ];
 
