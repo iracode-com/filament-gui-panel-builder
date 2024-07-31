@@ -61,4 +61,4 @@ php artisan filament:clear
 ```
 Now in Filament admin panel , Gui Panel Builder menu is registered!
 ## Translation
-All texts in this plugin is used with laravel translation helper you should just translate them in your language translation json file.
+All texts in this plugin is used with Laravel translation helper.You should just translate them in your language translation json file.
