@@ -1,7 +1,7 @@
 <x-filament-panels::page>
     <div>
-        <h3>A powerfull plugin to work with database and create filament resources with a graphical user
-            interface(GUI).This plugin has these following features to help you work with database and filament easily:
+        <h3>A powerfull plugin to work with database and create Filament resources with a graphical user
+            interface(GUI).This plugin has these following features to help you work with database and Filament easily:
         </h3>
     </div>
     <div class="grid" style="grid-template-columns: repeat(2, minmax(0, 1fr)); gap:10px">
@@ -29,7 +29,7 @@
             <div style="margin:0 10px; display: flex; flex-direction: column">
                 <h2 style="font-weight: bold">{{ __('Resource Generator') }}</h2>
                 <p style="font-size: 14px">
-                    {{ __('This feature helps you to create a filament from an existing model.') }}</p>
+                    {{ __('This feature helps you to create a Filament resource from an existing model.') }}</p>
             </div>
         </a>
         <a href="{{ $this->get_sql_builder_page_url() }}" id="model-card"
@@ -38,7 +38,7 @@
             <div style="margin:0 10px; display: flex; flex-direction: column">
                 <h2 style="font-weight: bold">{{ __('Model and Resource Generator') }}</h2>
                 <p style="font-size: 14px">
-                    {{ __('This feature helps you to create model and resource from an existing database.') }}</p>
+                    {{ __('This feature helps you to create model and Filament resource from an existing database.') }}</p>
             </div>
         </a>
     </div>
@@ -52,7 +52,7 @@
             <div style="margin:0 10px; display: flex; flex-direction: column">
                 <h2 style="font-weight: bold">{{ __('Optimize Project') }}</h2>
                 <p style="font-size: 14px">
-                    {{ __('Optimizing project with re-caching project entities for better performance.') }}</p>
+                    {{ __('Optimizing project by reloading project caches for better performance.') }}</p>
                 <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="optimize" />
             </div>
         </a>
@@ -62,7 +62,7 @@
             <div style="margin:0 10px; display: flex; flex-direction: column">
                 <h2 style="font-weight: bold">{{ __('Optimize Filament') }}</h2>
                 <p style="font-size: 14px">
-                    {{ __('Optimizing filament with re-caching its entities for better performance.') }}</p>
+                    {{ __('Optimizing Filament by reloading its caches for better performance.') }}</p>
                 <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="filament_cache" />
             </div>
         </a>
@@ -72,7 +72,7 @@
             <div style="margin:0 10px; display: flex; flex-direction: column">
                 <h2 style="font-weight: bold">{{ __('Cache Icons') }}</h2>
                 <p style="font-size: 14px">
-                    {{ __('Optimizing project with re-caching its blade icons for better performance.') }}</p>
+                    {{ __('Optimizing project by reloading blade icons cache for better performance.') }}</p>
                 <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="icons_cache" />
             </div>
         </a>
@@ -81,7 +81,7 @@
             <x-heroicon-m-bars-arrow-up style="color: rgb(100 116 139); width:64px;" />
             <div style="margin:0 10px; display: flex; flex-direction: column">
                 <h2 style="font-weight: bold">{{ __('Clear All Caches') }}</h2>
-                <p style="font-size: 14px">{{ __('Clear all caches in project include laravel and filament caches.') }}
+                <p style="font-size: 14px">{{ __('Clear all caches in project include Laravel and Filament caches.') }}
                 </p>
                 <x-filament::loading-indicator class="h-5 w-5" wire:loading wire:target="clear_caches" />
             </div>
