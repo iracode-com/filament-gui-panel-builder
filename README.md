@@ -12,14 +12,6 @@ Filament GUI Panel Builder provides a filament graphical user interface plugin f
 ```bash
 composer require iracode-com/filament-gui-panel-builder
 ```
-#### Publish Configs(optional)
-```bash
-php artisan vendor:publish --tag=filament-gui-panel-builder-config
-```
-#### Publish Resources(optional)
-```bash
-php artisan vendor:publish --tag=filament-gui-panel-builder-resources
-```
 #### Add Provider
 in config/app.php:
 
@@ -44,8 +36,14 @@ in app\Providers\Filament\AdminPanelProvider.php:
 		]);
     ?>
     
-	
-
+#### Publish Configs(optional)
+```bash
+php artisan vendor:publish --tag=filament-gui-panel-builder-config
+```
+#### Publish Resources(optional)
+```bash
+php artisan vendor:publish --tag=filament-gui-panel-builder-resources
+```
 #### Clear Caches
 ```bash
 php artisan filament:clear
